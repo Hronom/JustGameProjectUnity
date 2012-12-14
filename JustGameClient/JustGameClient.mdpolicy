@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolicySet name="JustGameClient.mdpolicy">
+  <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
+  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+    <BeforeMethodDeclarationParentheses>False</BeforeMethodDeclarationParentheses>
+  </CSharpFormattingPolicy>
+  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
+    <FileWidth>120</FileWidth>
+    <TabWidth>4</TabWidth>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
+</PolicySet>
